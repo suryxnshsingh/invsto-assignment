@@ -93,16 +93,16 @@ const Card = ({ isDarkMode }: CardProps) => {
             onChange={(e) => setPageViews(parseInt(e.target.value))}
             className={`w-full h-2 rounded-lg appearance-none cursor-pointer
                       [&::-webkit-slider-thumb]:appearance-none
-                      [&::-webkit-slider-thumb]:w-9
-                      [&::-webkit-slider-thumb]:h-9
+                      [&::-webkit-slider-thumb]:w-7
+                      [&::-webkit-slider-thumb]:h-7
                       [&::-webkit-slider-thumb]:rounded-full
                       [&::-webkit-slider-thumb]:bg-[#10d5c2]
                       [&::-webkit-slider-thumb]:shadow-[0_15px_30px_rgba(0,255,231,0.9)]
                       [&::-webkit-slider-thumb]:cursor-pointer
                       [&::-webkit-slider-thumb]:hover:bg-[#7aeadf]
                       [&::-webkit-slider-thumb]:relative
-                      [&::-moz-range-thumb]:w-9
-                      [&::-moz-range-thumb]:h-9
+                      [&::-moz-range-thumb]:w-7
+                      [&::-moz-range-thumb]:h-7
                       [&::-moz-range-thumb]:border-0
                       [&::-moz-range-thumb]:rounded-full
                       [&::-moz-range-thumb]:bg-[#10d5c2]
